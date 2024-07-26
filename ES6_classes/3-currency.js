@@ -8,6 +8,7 @@ export default class Currency {
   get code() {
     return this._code;
   }
+
   set code(newCode) {
     this._code = newCode;
   }
@@ -16,6 +17,7 @@ export default class Currency {
   get name() {
     return this._name;
   }
+
   set name(newName) {
     this._name = newName;
   }
