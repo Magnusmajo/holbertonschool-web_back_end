@@ -8,6 +8,7 @@ export default class Pricing {
   get amount() {
     return this._amount;
   }
+
   set amount(newAmount) {
     this._amount = newAmount;
   }
@@ -16,6 +17,7 @@ export default class Pricing {
   get currency() {
     return this._currency;
   }
+
   set currency(newCurrency) {
     this._currency = newCurrency;
   }
