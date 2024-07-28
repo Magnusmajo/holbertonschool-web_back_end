@@ -1,2 +1,3 @@
-export default function const getStudentIdsSum = (list) => list.reduce((total, student) => total + student.id, 0);
-
+export default function  getStudentIdsSum (list){
+  return list.reduce((total, student) => total + student.id, 0);
+}
