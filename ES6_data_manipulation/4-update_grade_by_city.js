@@ -1,4 +1,4 @@
-function updateStudentGradeByCity(students, city, newGrades) {
+export default function updateStudentGradeByCity(students, city, newGrades) {
   return students.map((student) => {
     const matchingGrade = newGrades.find((grade) => grade.studentId === student.id);
     const updatedGrade = matchingGrade ? matchingGrade.grade : 'N/A';
