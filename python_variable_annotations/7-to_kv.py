@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Module to convert a key and a value to a tuple with the key and the square of the value."""
+"""Module to convert a key and a value to
+a tuple with the key and the square of the value."""
 from typing import Union, Tuple
 
 
