@@ -2,6 +2,7 @@
 """Module for the floor of the float"""
 
 
-def floor(n: float) -> float:
-    """takes a float and return the floor"""
+def floor(n: float) -> int:
+    """takes a float
+    Return the floor"""
     return int(n)
