@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 This module contains a function that creates a multiplier function.
+note: Here is the syntax of Callable:
+Callable[[ArgumentType1, ArgumentType2, ...], ReturnType]
 """
 from typing import Callable
 
