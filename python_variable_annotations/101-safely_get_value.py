@@ -6,7 +6,9 @@ from typing import Any, Mapping, TypeVar, Union
 T = TypeVar('T')
 
 
-def safely_get_value(dct: Mapping, key: Any, default: Union[T, None] = None) -> Union[Any, T]:
+def safely_get_value(
+    dct: Mapping, key: Any, default: Union[T, None] = None
+) -> Union[Any, T]:
     """
     Retrieve a value from a dictionary using a given key, returning a
     default value if the key is not found.
