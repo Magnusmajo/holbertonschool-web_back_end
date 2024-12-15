@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""This module contains functions for working
-with the wait_n function."""
+"""This module contains functions for
+working with the wait_n function."""
 
 import asyncio
 from typing import List
+
 wait_random = __import__('0-basic_async_syntax').wait_random
 task_wait_random = __import__('3-tasks').task_wait_random
 
