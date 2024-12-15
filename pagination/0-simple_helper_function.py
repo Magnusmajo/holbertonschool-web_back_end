@@ -4,11 +4,6 @@ def index_range(page, page_size):
     start index and an end index corresponding
     to the range of indexes to return in a list
     for those particular pagination parameters.
-
-    Parameters:
-    page (int): The page number (1-indexed).
-    page_size (int): The number of items per page.
-
     Returns:
     tuple: A tuple containing the start index and end index.
     """
