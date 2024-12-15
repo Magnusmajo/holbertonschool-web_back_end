@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """This module contains functions for
-working with the wait_n function."""
+working with the wait_n function.
+"""
 
 import asyncio
 from typing import List
