@@ -42,7 +42,7 @@ class Server:
     def get_hyper_index(self, index: int = None, page_size: int = 10) -> Dict:
         """Get a page of the dataset with hypermedia pagination"""
 
-        assert index is not None and 0 <= index < len(self.indexed_dataset()), "Index out of range"
+        assert index is not None and 0 <= index < len(self.indexed_dataset())
 
         indexed_dataset = self.indexed_dataset()
 
