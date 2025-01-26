@@ -1,8 +1,10 @@
 console.log('Welcome to Holberton School, what is your name?');
+
 process.stdin.resume();
-process.stdin.on('readable', () => {
-  const name = process.stdin.read();
-  process.stdout.write(`Your name is: ${name}\r`);
+process.stdin.setEncoding('utf8');
+
+process.stdin.on('data', (name) => {
+  process.stdout.write(`Your name is: ${name}`);
   if (process.stdin.isTTY) {
     process.exit();
   } else {
