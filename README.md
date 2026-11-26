@@ -1,12 +1,26 @@
+# Web Back End — Holberton School
 
-Welcome to JavaScript
-# Holberton School Web Back End
+Repository for backend and JavaScript/Python exercises from the Holberton School curriculum.
 
-## Author
-Alexis Rodriguez Rodriguez
+## Current top-level modules
 
-Welcome to the Holberton School Web Back End repository! This repository contains all the projects and assignments related to the Web Back End specialization at Holberton School.
+- `ES6_basic/`
+- `ES6_classes/`
+- `ES6_data_manipulation/`
+- `ES6_promise/`
+- `Node_JS_basic/`
+- `pagination/`
+- `python_async_comprehension/`
+- `python_async_function/`
+- `python_variable_annotations/`
+- `NoSQL/`
 
-Feel free to explore the different folders and files to learn more about each project. If you have any questions or need assistance, don't hesitate to reach out to the author.
+Each directory contains a separate set of exercises. Follow the task-level instructions for setup, execution and testing; this repository is not a single deployable backend service.
 
-Happy coding!
+## Learning scope
+
+The coursework covers modern JavaScript, asynchronous programming, Node.js fundamentals, Python typing and asynchronous code, pagination and introductory NoSQL concepts.
+
+## Status
+
+Historical educational repository.
